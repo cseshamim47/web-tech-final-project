@@ -1,0 +1,101 @@
+RABBI
+bank table
+- Name
+- username
+- balance
+
+transaction 
+- trxId
+- sender
+- receiver
+- time
+- amount
+
+
+
+
+<?php 
+                    
+                        if(isset($_GET['filter']) && $_GET['filter'] == 'sent')
+                        {
+                            echo "<b>Sent Transactions</b><br>";     
+                    ?>
+                        <table border="1" width=100%>
+                            <tr>
+                                <th>Sent To</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Time</th>
+                            </tr>
+
+                            <tr>
+                                <td>abdur_rabbi_rocks</td>
+                                <td>12312 USD</td>
+                                <td>unconfirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td>
+                            </tr>
+                            <tr>
+                                <td>abdur_rabbi_rocks</td>
+                                <td>12312 USD</td>
+                                <td>confirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td>
+                            </tr>
+                            <tr>
+                                <td>abdur_rabbi_rocks</td>
+                                <td>12312 USD</td>
+                                <td>confirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td> 
+                            </tr>
+                        </table>
+                    <?php 
+                        
+                        
+                            }else 
+                            {
+                                echo "<b>Received Transactions</b><br>";                    
+                    ?>
+                        <table border="1" width=100%>
+                            <tr>
+                                <th>From</th>
+                                <th>Amount</th>
+                                <th>Status</th>
+                                <th>Time</th>
+                                
+                            </tr>
+
+                            <tr>
+                                <td>a1313asfi_r78967s</td>
+                                <td>12312 USD</td>
+                                <td>confirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td>
+                            </tr>
+                            <tr>
+                                <td>a1313asfi_r78967s</td>
+                                <td>12312 USD</td>
+                                <td>confirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td>
+                            </tr>
+                            <tr>
+                                <td>a1313asfi_r78967s</td>
+                                <td>12312 USD</td>
+                                <td>confirmed</td>
+                                <td><?php 
+                                    echo date('d-m-Y h:i:s', time()-25200);
+                                ?></td>
+                            </tr>
+                            
+                        </table>
+
+                    <?php 
+                            }
+                    ?>

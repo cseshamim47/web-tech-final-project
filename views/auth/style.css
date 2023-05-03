@@ -1,0 +1,119 @@
+@font-face {
+    font-family: ralewayBold;
+    src: url(../../includes/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: ralewayBlack;
+    src: url(../../includes/fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: ralewayThin;
+    src: url(../../includes/fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: ralewayRegular;
+    src: url(../../includes/fonts/Raleway-Regular.ttf);
+}
+
+body{
+    font-family: ralewayBlack;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #00ADB5 !important;
+}
+a{
+    color: #EEEEEE;
+}
+
+
+.username:hover{
+    text-decoration: underline !important;
+}
+
+.tda,.logout,.username{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.tda:hover{
+    color:#222831 !important;
+}
+
+.adminTable{
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.tdClass:hover{
+    background-color: #00ADB5;
+}
+
+.lightFont{
+    font-family: ralewayThin;
+}
+.regularFont{
+    font-family: ralewayRegular;
+}
+.clearDB{
+    text-align: center;
+    /* margin-top: 200px; */
+}
+
+.btn, .editUser, .deleteUser{
+    width: 100px;
+    height: 40px;
+    font-family: ralewayBlack;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #00ADB5;
+    border: none;
+}
+
+.btn1{
+    margin-left: 190px;
+}
+.btn2{
+    margin-left: 10px;
+}
+
+.deleteUser_btn{
+    margin-left: 330px;
+}
+
+.adminSettings{
+    font-family: ralewayThin;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+tr,td,th{
+    padding: 10px;
+}
+
+.edit{
+    height: 30px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+}
+
+.editBtn{
+    margin-left: 124px;
+    
+}
+
+.alert{
+    color: red;
+}
+

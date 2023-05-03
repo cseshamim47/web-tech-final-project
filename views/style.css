@@ -1,0 +1,185 @@
+@font-face {
+    font-family: ralewayBold;
+    src: url(../includes/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: ralewayBlack;
+    src: url(../includes/fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: ralewayThin;
+    src: url(../includes/fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: ralewayRegular;
+    src: url(../includes/fonts/Raleway-Regular.ttf);
+}
+
+body{
+    font-family: ralewayRegular;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-size: 16px;
+}
+
+a:hover{
+    color: #00ADB5 !important;
+    text-decoration: underline !important;
+}
+a{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+
+
+
+
+.username:hover{
+    text-decoration: underline !important;
+}
+
+.tda,.logout,.username{
+    color: #EEEEEE;
+    text-decoration: none;
+}
+.tda:hover{
+    color:#222831 !important;
+}
+
+.adminTable{
+    margin-top: 100px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+}
+
+.tdClass:hover{
+    background-color: #00ADB5;
+}
+
+.lightFont{
+    font-family: ralewayThin;
+}
+.regularFont{
+    font-family: ralewayRegular;
+}
+.clearDB{
+    text-align: center;
+    /* margin-top: 200px; */
+}
+
+.btn, .editUser, .deleteUser{
+    width: 100px;
+    height: 40px;
+    font-family: ralewayBlack;
+    font-size: 16px;
+    border-radius: 0;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #00ADB5;
+    border: none;
+}
+
+.btn1{
+    margin-left: 190px;
+}
+.btn2{
+    margin-left: 10px;
+}
+
+.deleteUser_btn{
+    margin-left: 330px;
+}
+
+.adminSettings{
+    font-family: ralewayThin;
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+tr,td,th{
+    padding: 10px;
+}
+
+.edit{
+    height: 30px;
+    width: 250px;
+    border: none;
+    padding: 10px;
+}
+
+.editBtn{
+    margin-left: 124px;
+    
+}
+
+.alert{
+    color: rgb(255, 100, 100);
+    font-family: ralewayBlack !important;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    margin-top: 10px;
+}
+
+.username_{
+    font-family: ralewayBlack !important;
+    font-size: 20px;
+    color:#00ADB5;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .emoji-ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type=radio] {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+
+  
+  label:hover {
+    transform: scale(1.1);
+  }
+  
+  input[type=radio]:checked + label {
+    transform: scale(1.1);
+  }
+  
+  textarea {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
