@@ -1,5 +1,5 @@
 <?php
-require_once '../Models/UserModel.php';
+require_once '../Models/trxModel.php';
 
 if (isset($_POST['submit'])) {
 	$from_date = $_POST['from_date'];

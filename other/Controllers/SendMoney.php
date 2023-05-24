@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once '../models/userModel.php';
+    require_once '../models/trxModel.php';
 
     if(isset($_REQUEST['submit'])){
 
@@ -24,6 +24,7 @@
             
             if($status){
                 echo "Money Sent";
+               
             }else{
                 echo "DB error, please try again...";
             }

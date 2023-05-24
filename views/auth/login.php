@@ -4,6 +4,10 @@
     // print_r($_COOKIE);
     // echo "<br>";
     // print_r($_SESSION);
+    require_once('../../models/db.php');
+    $con = getConnection();
+    if($con) echo "connected";
+    else echo "notConnected";
     if(!isset($_SESSION['activity']))
     {
         require_once('../repeat/activity.php');

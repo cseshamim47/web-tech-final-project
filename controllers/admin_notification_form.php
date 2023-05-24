@@ -39,7 +39,7 @@
 			$servername = "localhost";
 			$username = "root";
 			$password = "";
-			$dbname = "project";
+			$dbname = "blockchain";
 
 			$conn = mysqli_connect($servername, $username, $password, $dbname);
 
@@ -96,14 +96,14 @@
 
 
 		<!-- Insert notification form -->
-		<form method="POST" action="">
+		<form method="POST" action="admin_notification_form.php">
 			<fieldset>
 				<legend>Insert notification</legend>
 				<label>Notification:</label>
 				<input onkeyup="f()" id="notification" type="text" name="notification" required>
 				<br>
 				<br>
-				<input type="button" name="submit" value="Post notification">
+				<input type="submit" name="submit" value="Post notification">
 				<h1 id="notificationAlert" class="alert"></h1>
 			</fieldset>
 		</form>
@@ -154,6 +154,7 @@
    <?php
 	mysqli_close($conn);
    ?>
+   
    <script>
 	function f()
 	{

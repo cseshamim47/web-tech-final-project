@@ -1,6 +1,6 @@
 <?php
 // Establishing connection with the database
-$conn = mysqli_connect("localhost", "root", "", "project");
+$conn = mysqli_connect("localhost", "root", "", "blockchain");
 
 // Initializing variables
 $question = $answer = "";

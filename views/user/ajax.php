@@ -3,7 +3,7 @@
 session_start();
 
 
-$conn = mysqli_connect("localhost", "root", "", "project");
+$conn = mysqli_connect("localhost", "root", "", "blockchain");
 
 // Search query
 if (isset($_GET['search'])) {

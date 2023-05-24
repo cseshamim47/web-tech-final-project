@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Feedback System</title>
-  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" type="text/css" href="feedback.css">
 </head>
 <body>
 

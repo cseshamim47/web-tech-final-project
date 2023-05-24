@@ -32,6 +32,10 @@ require_once('../repeat/load.php');
                         </td>
                     </tr>
                 </table>
+            <?php 
+                for($i = 0; $i < 300; $i++)
+                {
+            ?>
             </td>
             <td colspan="2">
                 <fieldset>
@@ -83,8 +87,12 @@ require_once('../repeat/load.php');
                     </table>
                 </fieldset>
 
+
             </td>
         </tr>
+            <?php 
+                }
+            ?>
         
         <tr height="80px">
             <td colspan="3" align="center">

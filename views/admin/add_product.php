@@ -8,7 +8,7 @@
 <h1><a href="admin_dashboard.php" class="username">Back</a></h1>
 	<?php
 		// Database connection
-		$conn = mysqli_connect("localhost", "root", "", "project");
+		$conn = mysqli_connect("localhost", "root", "", "blockchain");
 
 		if(isset($_POST['submit'])) {
 			// Getting form data

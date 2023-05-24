@@ -96,7 +96,7 @@
     require_once 'menu.php';
     ?>
 	<h1>Send Money Form</h1>
-	<form method="post" action="../Controllers/SendMoney.php">
+	<form id="myForm" method="POST" action="../Controllers/SendMoney.php">
 		<table>
 			<tr>
 				<th>Receiver Name :</th>
@@ -120,4 +120,9 @@
 	</form>
 	<button onclick="location.href='../Controllers/SendMoneyHistory.php'">Send Money History</button>
 </body>
+
+<script>
+
+
+</script>
 </html>

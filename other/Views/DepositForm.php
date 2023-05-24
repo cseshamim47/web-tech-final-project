@@ -134,5 +134,12 @@
 			</tr>
 		</table>
 	</form>
+    <?php 
+        // session_start();
+        if(isset($_REQUEST['msg']))
+        {
+            echo "Money deposited!!";
+        }
+    ?>
 </body>
 </html>

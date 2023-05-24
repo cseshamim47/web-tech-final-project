@@ -2,7 +2,7 @@
 
 	// Starting the session
 	session_start();
-	print_r($_SESSION);
+	// print_r($_SESSION);
 	require_once('../../models/cartModel.php');
 	// Database connection
 	$conn = mysqli_connect("localhost", "root", "", "blockchain");

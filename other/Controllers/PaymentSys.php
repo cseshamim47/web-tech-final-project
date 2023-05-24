@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once '../models/userModel.php';
+    require_once '../models/trxModel.php';
 
     if(isset($_REQUEST['submit'])){
 
@@ -23,7 +23,7 @@
             $status = trxfunction($trx);
             
             if($status){
-                header('location: ../views/login.php');
+                echo "Payment Successful";
             }else{
                 echo "DB error, please try again...";
             }

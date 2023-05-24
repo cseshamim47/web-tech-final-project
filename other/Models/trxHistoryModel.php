@@ -13,7 +13,7 @@
                 "email" => $row["email"],
                 "trx_date" => $row["trx_date"],
                 "trx_amount" => $row["trx_amount"],
-                "trx_name" => $row["trx_name"]
+                "trx_type" => $row["trx_type"]
             );
             array_push($transactions, $transaction);
         }

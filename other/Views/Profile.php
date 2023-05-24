@@ -81,12 +81,14 @@ require_once('../models/userModel.php');
 				echo "<p><strong>Gender:</strong> " . $user['gender'] . "</p>";
 				echo "<p><strong>Date of Birth:</strong> " . $user['dob'] . "</p>";
 				echo "</div>";
-				echo "<a href='#' class='button'>Edit Profile</a><br>";
+				echo "<a href='EditProView.php' class='button'>Edit Profile</a><br>";
 				echo "<a href='user.php' class='button'>Home</a>";
+				echo "<a href='../Controllers/DeleteProfile.php' class='button'>Delete</a>";
 			}else{
 				// display error message
 				echo "<h2 class='error'>Error:</h2>";
 				echo "<p class='error'>" . $user . "</p>";
+
 			}
 		?>
 	</div>

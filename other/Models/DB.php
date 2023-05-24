@@ -3,7 +3,7 @@
     $db_host = '127.0.0.1';
     $db_user = 'root';
     $db_pass = '';
-    $db_name = 'Project';
+    $db_name = 'final';
 
     function getConnection(){
         global $db_host;

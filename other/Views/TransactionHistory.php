@@ -149,16 +149,16 @@
 
         foreach ($transactions as $transaction) {
             echo '<tr>';
-            echo '<td>' . $transaction['transaction_id'] . '</td>';
-            echo '<td>' . $transaction['transaction_date'] . '</td>';
-            echo '<td>' . $transaction['transaction_amount'] . '</td>';
-            echo '<td>' . $transaction['transaction_type'] . '</td>';
+            echo '<td>' . $transaction['email'] . '</td>';
+            echo '<td>' . $transaction['trx_date'] . '</td>';
+            echo '<td>' . $transaction['trx_amount'] . '</td>';
+            echo '<td>' . $transaction['trx_type'] . '</td>';
             echo '</tr>';
         }
 
         echo '</table>';
     } else {
-        echo '<p class="no-results">No results found.</p>';
+       include'../Controllers/alltrx.php';
     }
     ?>
 </body>
